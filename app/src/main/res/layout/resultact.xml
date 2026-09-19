@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7ECFA"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingStart="24dp"
+        android:paddingTop="30dp"
+        android:paddingEnd="24dp"
+        android:paddingBottom="30dp">
+
+
+        <!-- ======================== -->
+        <!-- HEADER -->
+        <!-- ======================== -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#BFDDF2"
+            android:paddingStart="14dp"
+            android:paddingTop="7dp"
+            android:paddingEnd="14dp"
+            android:paddingBottom="7dp"
+            android:text="02  •  DIGITAL IDENTITY"
+            android:textColor="#416F8E"
+            android:textSize="11sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Your Student\nIdentity."
+            android:textColor="#15374F"
+            android:textSize="38sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:gravity="center"
+            android:text="Your academic digital profile is ready."
+            android:textColor="#6D899D"
+            android:textSize="14sp" />
+
+
+        <!-- ======================== -->
+        <!-- STUDENT DIGITAL CARD -->
+        <!-- ======================== -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:background="#F9FCFF"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+
+            <!-- CARD HEADER -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <!-- INITIAL -->
+
+                <TextView
+                    android:id="@+id/tvInitial"
+                    android:layout_width="78dp"
+                    android:layout_height="78dp"
+                    android:background="#5D97C3"
+                    android:gravity="center"
+                    android:text="SB"
+                    android:textColor="#FFFFFF"
+                    android:textSize="27sp"
+                    android:textStyle="bold" />
+
+
+                <!-- NAMA DAN NRP -->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="17dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="STUDENT"
+                        android:textColor="#80A0B5"
+                        android:textSize="9sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tvNama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:text="Nama Mahasiswa"
+                        android:textColor="#17364D"
+                        android:textSize="22sp"
+                        android:textStyle="bold" />
+
+
+                    <TextView
+                        android:id="@+id/tvNrp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="NRP  5025251001"
+                        android:textColor="#668297"
+                        android:textSize="14sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!-- STATUS -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="#DAEDF9"
+                android:paddingStart="12dp"
+                android:paddingTop="6dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="6dp"
+                android:text="●  ACTIVE STUDENT"
+                android:textColor="#4D86B0"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+
+            <!-- LINE -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginBottom="20dp"
+                android:background="#D3E5F1" />
+
+
+            <!-- DEPARTEMEN -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DEPARTMENT"
+                android:textColor="#829BAE"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDepartemen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Teknologi Informasi"
+                android:textColor="#25475F"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+
+            <!-- TTL -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="21dp"
+                android:text="PLACE &amp; DATE OF BIRTH"
+                android:textColor="#829BAE"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvTtl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Surabaya, 12 Mei 2007"
+                android:textColor="#25475F"
+                android:textSize="16sp" />
+
+
+            <!-- ANGKATAN -->
+
+            <TextView
+                android:id="@+id/tvAngkatan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:background="#D8ECFA"
+                android:paddingStart="13dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="13dp"
+                android:paddingBottom="8dp"
+                android:text="ANGKATAN  2025"
+                android:textColor="#3D6D8D"
+                android:textSize="11sp"
+                android:textStyle="bold" />
+
+
+            <!-- EMAIL -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="22dp"
+                android:text="ACADEMIC EMAIL"
+                android:textColor="#829BAE"
+                android:textSize="10sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="student@email.ac.id"
+                android:textColor="#25475F"
+                android:textSize="15sp" />
+
+
+            <!-- LINE BAWAH -->
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="23dp"
+                android:layout_marginBottom="16dp"
+                android:background="#D3E5F1" />
+
+
+            <!-- FOOTER CARD -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="DIGITAL STUDENT ID"
+                    android:textColor="#7894A7"
+                    android:textSize="9sp"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VERIFIED  ✓"
+                    android:textColor="#4F89B5"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <!-- ======================== -->
+        <!-- BACK BUTTON -->
+        <!-- ======================== -->
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="28dp"
+            android:backgroundTint="#234D68"
+            android:text="←   EDIT PROFILE"
+            android:textColor="#FFFFFF"
+            android:textSize="15sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            android:text="STUDENT DIGITAL IDENTITY SYSTEM"
+            android:textColor="#7290A6"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</ScrollView>
